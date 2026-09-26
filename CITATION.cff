@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite it as below."
+title: "Determinants and Impact of Capital Structure on Firm Performance: Textile & Apparel Sector, India (FY2015-16 to FY2024-25)"
+authors:
+  - given-names: Chandan
+type: software
+date-released: 2026-09-26
+license: MIT
+keywords:
+  - capital structure
+  - pecking order theory
+  - debt-equity ratio
+  - textile industry
+  - India
+  - panel regression
+  - R
