@@ -1,0 +1,7 @@
+﻿"Test","Statistic","p-value","Reading"
+"Breusch–Pagan (heteroskedasticity) — ROE model",14.549529662449471,0.005732782124359463,"Assumption violated at 5%"
+"Breusch–Pagan (heteroskedasticity) — ROA model",4.529526600440547,0.3390607323325621,"No violation at 5%"
+"Shapiro–Wilk (normality of residuals) — ROE model",0.9543515820070789,0.001623614857214979,"Assumption violated at 5%"
+"Shapiro–Wilk (normality of residuals) — ROA model",0.9721261618370842,0.03222670880718781,"Assumption violated at 5%"
+"Durbin–Watson (autocorrelation) — ROE model",1.5253115579907959,0.00436207679853092,"Assumption violated at 5%"
+"Durbin–Watson (autocorrelation) — ROA model",1.0151360245347414,1.0148219869141023e-7,"Assumption violated at 5%"

@@ -1,0 +1,5 @@
+﻿"Item","Value"
+"Two-way FE within R²","0.403"
+"Hausman test (FE vs RE) chi-sq","1.315"
+"Hausman p-value","0.8588"
+"Preferred model","Random effects (p ≥ 0.05)"

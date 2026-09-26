@@ -1,0 +1,5 @@
+﻿"Model","Variable","Coefficient","Std. Error","t-Statistic","p-value","Sig. at 5%?"
+"ROE — two-way fixed effects (clustered SE)","D/E Ratio (β1)",-0.11240919529421824,0.012553556071355648,-8.954370750030773,1.468366871706282e-13,"Yes**"
+"ROE — two-way fixed effects (clustered SE)","Size — ln(Total Assets) (β2)",0.03458895680903454,0.04915757246727301,0.7036343552575216,0.4837828534654669,"No"
+"ROE — two-way fixed effects (clustered SE)","Sales Growth (β3)",0.1833822837076063,0.056665002686840084,3.2362529782460436,0.0017865859501492057,"Yes**"
+"ROE — two-way fixed effects (clustered SE)","Tangibility (β4)",-0.09644883955484532,0.15353247601996445,-0.6281982942964046,0.5317329337384513,"No"
