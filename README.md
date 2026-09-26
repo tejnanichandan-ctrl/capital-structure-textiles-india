@@ -195,7 +195,7 @@ Every figure is a 300-dpi PNG in [`output/figures/`](output/figures/). The compl
 **Requirements:** R ≥ 4.2 (RStudio recommended). Missing packages install automatically on the first run.
 
 ```bash
-git clone https://github.com/<your-username>/capital-structure-textiles-india.git
+git clone https://github.com/tejnanichandan-ctrl/capital-structure-textiles-india.git
 cd capital-structure-textiles-india
 Rscript run_all.R
 ```
