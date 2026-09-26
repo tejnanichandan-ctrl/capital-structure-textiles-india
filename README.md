@@ -109,7 +109,7 @@ The same model is re-estimated with ROA as the dependent variable, as a robustne
 | Sutlej Textiles | 0.99 | 5.7% | 2.3% | 51.9% |
 | Gokaldas Exports | 1.40 | 6.9% | 4.6% | 15.7% |
 | Siyaram Silk Mills | 0.42 | 14.8% | 8.6% | 34.3% |
-| **Pooled (100 obs.)** | **0.75** | **12.7%** | **7.0%** | **42.7%** |
+| **Pooled (100 obs.)** | **0.75** | **12.6%** | **7.0%** | **42.7%** |
 
 ### 2. More debt goes with lower profitability
 | Pair | Pearson r |
@@ -219,6 +219,17 @@ The whole run takes under a minute and rebuilds every table and figure in `outpu
 
 ---
 
+### Final Excel workings
+
+[`data/5822_Chandan_CapitalStructure_Workings.xlsx`](data/5822_Chandan_CapitalStructure_Workings.xlsx) is the submitted workbook. Beyond the R pipeline it adds:
+
+- **Liquidity (current-ratio proxy)** = Other Assets ÷ Other Liabilities, from Screener.in's standalone balance sheets (correlation with D/E: −0.05, not significant).
+- **Live LINEST regressions** for the ROE, ROA and ROE + COVID-dummy models (COVID dummy −0.0046, p = 0.83).
+- **Theory Formulas** sheet: NI, NOI, Traditional, MM (with/without taxes) and Trade-off formulas with a worked example on Welspun Living.
+- **ET Wealth Link** sheet comparing the article's three picks with the other seven companies.
+
+---
+
 ## Repository structure
 
 ```
@@ -230,7 +241,7 @@ capital-structure-textiles-india/
 ├── capital-structure-textiles-india.Rproj
 ├── data/
 │   ├── raw_data.csv              # Screener.in standalone financials, FY2015–FY2025 (Rs crore)
-│   ├── Chandan_CapitalStructure_Workings.xlsx   # original Excel workings (live formulas)
+│   ├── 5822_Chandan_CapitalStructure_Workings.xlsx   # final Excel workings (live formulas, LINEST regressions)
 │   └── README.md                 # data dictionary
 ├── R/                            # analysis scripts, run in numbered order
 ├── output/
@@ -275,9 +286,16 @@ capital-structure-textiles-india/
 
 ---
 
-## Author
+## Authors
 
-**Chandan**, B.Com (Semester 3), Division D, Roll No. 5822
-Subject Teacher: Dr. Tessy Thadathil · Academic year 2026–27
+SY Corporate Finance group project, Division D, academic year 2026–27. Subject Teacher: Dr. Tessy Thadathil.
+
+| Roll No. | Name | Contribution |
+|---|---|---|
+| 5822 | Chandan Pavan Tejnani | Data collection (KPR Mill, Welspun Living, Indo Count); Excel workings, analysis, R code and report |
+| 5821 | Piyush Vilas Gharte | Data collection (KPR Mill, Welspun Living, Indo Count) |
+| 5804 | Nikhilranjan Manishkumar Jha | Data collection (Vardhman Textiles, Trident, Arvind) |
+| 5823 | Prantik Mukherjee | Data collection (Nitin Spinners, Sutlej Textiles) |
+| 5871 | Gravit Goyal | Data collection (Gokaldas Exports, Siyaram Silk Mills) |
 
 Code is released under the [MIT License](LICENSE). The financial data are drawn from publicly filed statements via Screener.in and are included for academic, non-commercial use only.
