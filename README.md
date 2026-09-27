@@ -290,12 +290,14 @@ capital-structure-textiles-india/
 
 SY Corporate Finance group project, Division D, academic year 2026–27. Subject Teacher: Dr. Tessy Thadathil.
 
-| Roll No. | Name | Contribution |
-|---|---|---|
-| 5822 | Chandan Pavan Tejnani | Data collection (KPR Mill, Welspun Living, Indo Count); Excel workings, analysis, R code and report |
-| 5821 | Piyush Vilas Gharte | Data collection (KPR Mill, Welspun Living, Indo Count) |
-| 5804 | Nikhilranjan Manishkumar Jha | Data collection (Vardhman Textiles, Trident, Arvind) |
-| 5823 | Prantik Mukherjee | Data collection (Nitin Spinners, Sutlej Textiles) |
-| 5871 | Gravit Goyal | Data collection (Gokaldas Exports, Siyaram Silk Mills) |
+| Roll No. | Name | Companies collected | Other contribution |
+|---|---|---|---|
+| 5822 | Chandan Pavan Tejnani | KPR Mill, Welspun Living | Group leader; Excel workings, analysis, R code and report |
+| 5821 | Piyush Vilas Gharte | Indo Count Industries, Vardhman Textiles | — |
+| 5804 | Nikhilranjan Manishkumar Jha | Trident, Arvind | — |
+| 5823 | Prantik Mukherjee | Nitin Spinners, Sutlej Textiles | — |
+| 5871 | Gravit Goyal | Gokaldas Exports, Siyaram Silk Mills | — |
+
+Each member collected ten years of standalone data for two companies, as the assignment brief requires.
 
 Code is released under the [MIT License](LICENSE). The financial data are drawn from publicly filed statements via Screener.in and are included for academic, non-commercial use only.
